@@ -1,42 +1,74 @@
-#root {
-  max-width: 1280px;
+/* App.css */
+
+body {
+  font-family: Comic Sans MS, cursive;
+  background-color: #ffcc99;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 800px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 20px;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+h1 {
+  color: #ff00ff;
+  font-size: 36px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px #000000;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+h3 {
+  color: #00ffff;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+p {
+  color: #0000ff;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+h1:first-child {
+  margin-top: 40px;
+}
+
+h1:last-child {
+  margin-top: 60px;
+}
+
+h1, h3, p {
+  animation: neonGlow 1s ease-in-out infinite alternate;
+}
+
+@keyframes neonGlow {
+  0% {
+    text-shadow: none;
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 60px #ff00ff, 0 0 70px #ff00ff;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+img:hover {
+  filter: none;
 }
