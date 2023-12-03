@@ -74,34 +74,34 @@ Que nos lignes de code résonnent comme un hymne,<br>
         <div>
          
           <img
-            src="../public/3dgifmaker00730.gif"
+            src="https://claq-dev.com/host/3dgifmaker00730.gif"
           />
           <img
-            src="../public/3dgifmaker08792.gif"
+            src="https://claq-dev.com/host/3dgifmaker08792.gif"
           />
           <img
-            src="../public/3dgifmaker33234.gif"
+            src="https://claq-dev.com/host/3dgifmaker33234.gif"
           />
           <img
-            src="../public/3dgifmaker90156.gif"
+            src="https://claq-dev.com/host/3dgifmaker90156.gif"
           />
           <img
-            src="../public/3dgifmaker24199.gif"
+            src="https://claq-dev.com/host/3dgifmaker24199.gif"
           />
           <img
-            src="../public/3dgifmaker49872.gif"
+            src="https://claq-dev.com/host/3dgifmaker49872.gif"
           />
           <img
-            src="../public/3dgifmaker67736.gif"
+            src="https://claq-dev.com/host/3dgifmaker67736.gif"
           />
           <img
-            src="../public/3dgifmaker54870.gif"
+            src="https://claq-dev.com/host/3dgifmaker54870.gif"
           />
            <img
-            src="../public/3dgifmaker46049.gif"
+            src="https://claq-dev.com/host/3dgifmaker46049.gif"
           />
           <img
-            src="../public/3dgifmaker52768.gif"
+            src="https://claq-dev.com/host/3dgifmaker52768.gif"
           />
           et d'autres mais j'ai pas les photos
         </div>
